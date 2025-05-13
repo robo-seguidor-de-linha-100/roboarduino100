@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Potifolio</title>
+</head>
+<body>
+        
+        <nav class="navegacao">
+            <ul class="menu">
+                <li>
+                    <a href="inicio" class="menu-link">Projeto</a>
+                </li>
+                <li>
+                    <a href="Sobre" class="menu-link">Sobre</a>
+                </li>
+                <li>
+                    <a href="Participacões" class="menu-link">Paticipações</a>
+                </li>
+            </ul>
+        </nav>
+    
+    <main id="inicio" class="cabecalho">
+            <img src="img/WhatsApp Image 2025-03-27 at 18.47.41.jpeg" alt="Robô Arduino" class="foto-perfil">
+            <h1>Bem vindo ao nosso projeto!</h1>
+            <p class="subtitulo">Robô seguidor de linha</p>
+    </main>
+
+    <section id="Sobre" class="Sobre">
+        <h2 class="sobre-tittle">Robô Arduino</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Este projeto consiste na construção de um robô seguidor de linha utilizando Arduino.
+            O objetivo é desenvolver um sistema autônomo capaz de seguir um trajeto pré-determinado
+            através de sensores infravermelhos. Esse projeto foi desenvolvido como parte de um estudo sobre eletrônica, programação e automação.</p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projeto">
+         <h2 class="projeto-titulo">Principais peças usadas</h2>
+        <div class="container">
+
+         <div class="projeto-card">
+            <img src="img/WhatsApp Image 2025-03-30 at 22.03.59 (1).jpeg" alt="Arduino" class="projeto-imagem">
+            <div class="caixa-textos-projeto">
+                <h3 class="info-projeto">Placa Arduino</h3>
+                <p class="paragrafo-projeto">Placa de prototipagem eletrônica de código aberto, muito usada para criar projetos interativos. C</p>
+            </div>
+
+        </div>
+
+        <div class="projeto-card">
+            <img src="img/WhatsApp Image 2025-04-06 at 01.28.12 (1).jpeg" alt="sensor infravermelho" class="projeto-imagem">
+            <div class="caixa-textos-projeto">
+                <h3 class="info-projeto">Sensores Infravermelho</h3>
+                <p class="paragrafo-projeto">Sensor infravermelho detecta presença, obstáculos ou calor usando luz infravermelha.</p>
+            </div>
+
+        </div>
+
+        <div class="projeto-card">
+            <img src="img/WhatsApp Image 2025-04-06 at 01.28.12 (2).jpeg" alt="ponte H" class="projeto-imagem">
+            <div class="caixa-textos-projeto">
+                <h3 class="info-projeto">Ponte H</h3>
+                <p class="paragrafo-projeto">Permite controlar o sentido de rotação de um motor (para frente ou para trás)</p>
+            </div>
+
+        </div>
+
+        <div class="projeto-card">
+            <img src="img/WhatsApp Image 2025-04-06 at 01.28.12.jpeg" alt="chassi" class="projeto-imagem">
+            <div class="caixa-textos-projeto">
+                <h3 class="info-projeto">Chassi</h3>
+                <p class="paragrafo-projeto">Estrutura qye sustenta e organiza as peças de projeto, como motores e sensores.</p>
+            </div>
+
+        </div>
+
+        <div class="projeto-card">
+            <img src="img/WhatsApp Image 2025-04-06 at 01.28.13.jpeg" alt="cabo usb" class="projeto-imagem">
+            <div class="caixa-textos-projeto">
+                <h3 class="info-projeto">Cabo USB</h3>
+                <p class="paragrafo-projeto">Conecta o Arduino ao computador para enviar código e fornecer energia.</p>
+            </div>
+
+        </div>
+
+         <div class="projeto-card">
+            <img src="img/WhatsApp Image 2025-04-06 at 01.31.54.jpeg" alt="cabo jumper" class="projeto-imagem">
+            <div class="caixa-textos-projeto">
+                <h3 class="info-projeto">Cabo Jumper</h3>
+                <p class="paragrafo-projeto">Fios usados para fazer conexões rápidas entre componentes eletrônicos.</p>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section> 
+    
+    <section class="sobre-montagem">
+
+        <h2 class="montagem-titulo">Montagem e Programação</h2>
+    
+        <div class="montagem-caixa">
+            <P class="montagem-paragrafo">A montagem de um robô com Arduino envolve a união de componentes como motores, rodas, sensores e uma placa Arduino. Primeiro, monta-se a estrutura (chassi) e fixa-se os motores e sensores. Em seguida, os componentes são conectados à placa Arduino e à fonte de energia. Depois, o robô é programado na IDE do Arduino, utilizando linguagem baseada em C/C++. Esse código define o comportamento do robô, como mover-se para frente, desviar de obstáculos, ou seguir uma trajetória. Por fim, são feitos testes e ajustes para garantir que tudo funcione corretamente.</P>
+        </div>
+
+    </section>
+
+    <section id="Participações" class="participacao">
+            <h2 class="equipe-titulo">Participações</h2>
+            <img src="img/WhatsApp Image 2025-04-13 at 22.39.53.jpeg" alt="Foto time" class="foto-grupo">
+
+        <div class="equipe">
+            <div class="membro">
+                    <h3>Eluiza</h3>
+                    <p>Programação</p>
+            </div>
+
+            <div class="membro">
+                    <h3>Tamires</h3>
+                    <p>Programação</p>
+            </div>
+
+            <div class="membro">
+                    <h3>Pedro Eduardo</h3>
+                    <p>Artigo</p>
+            </div>
+
+            <div class="membro">
+                    <h3>Luiz Dias</h3>
+                    <p>Artigo</p>
+            </div>
+
+            <div class="membro">
+                    <h3>Lucas Scaranello</h3>
+                    <p>Artigo</p>
+            </div>
+
+            <div class="membro">
+                    <h3>Kaique Santana</h3>
+                    <p>Montagem</p>
+            </div>
+
+            <div class="membro">
+                    <h3>Raissa Cavalcanti</h3>
+                    <p>Montagem</p>
+            </div>
+
+            <div class="membro">
+                    <h3>Gabrielle Carlos</h3>
+                    <p>Portfólio</p>
+            </div>
+
+            <div class="membro">
+                    <h3>Nathalia Emidio</h3>
+                    <p>Portfólio</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
